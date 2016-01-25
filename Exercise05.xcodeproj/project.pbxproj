@@ -12,6 +12,10 @@
 		D65541771C569E01009DF5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65541751C569E01009DF5BE /* Main.storyboard */; };
 		D65541791C569E01009DF5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65541781C569E01009DF5BE /* Assets.xcassets */; };
 		D655417C1C569E01009DF5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D655417A1C569E01009DF5BE /* LaunchScreen.storyboard */; };
+		D65541841C56A350009DF5BE /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D65541831C56A350009DF5BE /* Minecraft.ttf */; };
+		D65541861C56A537009DF5BE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65541851C56A537009DF5BE /* Player.swift */; };
+		D65541881C56AF2A009DF5BE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65541871C56AF2A009DF5BE /* Game.swift */; };
+		D655418A1C56E090009DF5BE /* 8-Bit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D65541891C56E090009DF5BE /* 8-Bit.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		D65541781C569E01009DF5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D655417B1C569E01009DF5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D655417D1C569E01009DF5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65541831C56A350009DF5BE /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		D65541851C56A537009DF5BE /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D65541871C56AF2A009DF5BE /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D65541891C56E090009DF5BE /* 8-Bit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "8-Bit.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		D65541701C569E01009DF5BE /* Exercise05 */ = {
 			isa = PBXGroup;
 			children = (
+				D65541891C56E090009DF5BE /* 8-Bit.mp3 */,
+				D65541831C56A350009DF5BE /* Minecraft.ttf */,
 				D65541711C569E01009DF5BE /* AppDelegate.swift */,
 				D65541731C569E01009DF5BE /* ViewController.swift */,
 				D65541751C569E01009DF5BE /* Main.storyboard */,
+				D65541851C56A537009DF5BE /* Player.swift */,
+				D65541871C56AF2A009DF5BE /* Game.swift */,
 				D65541781C569E01009DF5BE /* Assets.xcassets */,
 				D655417A1C569E01009DF5BE /* LaunchScreen.storyboard */,
 				D655417D1C569E01009DF5BE /* Info.plist */,
@@ -122,8 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D655418A1C56E090009DF5BE /* 8-Bit.mp3 in Resources */,
 				D655417C1C569E01009DF5BE /* LaunchScreen.storyboard in Resources */,
 				D65541791C569E01009DF5BE /* Assets.xcassets in Resources */,
+				D65541841C56A350009DF5BE /* Minecraft.ttf in Resources */,
 				D65541771C569E01009DF5BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D65541741C569E01009DF5BE /* ViewController.swift in Sources */,
+				D65541861C56A537009DF5BE /* Player.swift in Sources */,
 				D65541721C569E01009DF5BE /* AppDelegate.swift in Sources */,
+				D65541881C56AF2A009DF5BE /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
